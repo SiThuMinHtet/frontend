@@ -1,0 +1,78 @@
+.container {
+    width: 30%; 
+    margin: 10% auto 0 auto;  
+}
+.formLogin {
+    background: #fff;
+    box-shadow: 0 0 7px 0 #d7e3ef;
+    border: 1px solid #d7e3ef;
+    padding: 20px 30px 40px 30px;
+    border-radius: 11px;
+    min-width: 500px;
+    /* margin: 10% auto 0 auto; */
+}
+
+h2 {
+    text-align: center;
+    color: #4ad0cc;
+}
+
+
+.formControl {
+    display: grid;
+    margin-block: 15px;
+    gap: 10px;
+    color: #4ad0cc;
+    font-size: 19px;
+    label {
+        font-weight: 700;
+    }
+
+    input {
+        padding: 5px;
+        height: 25px;
+        border-radius: 5px;
+        outline: 0;
+        box-shadow: 0 0 7px 0 #d7e3ef;
+        border: 1px solid #d7e3ef;
+        /* border: 1px solid gray; */
+    }
+}
+
+.btn {
+    display: grid;
+    gap: 10px;
+}
+.signbtn{
+    width: 100%;
+    background-color: #4ad0cc;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding-block: 13px ;
+    font-size: 19px;
+}
+.subbtn,
+.cancelbtn {
+    height: 40px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: aliceblue;
+    font-weight: 700;
+    border: none;
+}
+.subbtn{
+    background-color: blueviolet;
+}
+.cancelbtn{
+    width: 100%;
+    background-color: red;
+}
+.signbtn:hover,
+.subbtn:hover,
+.cancelbtn:hover {
+    opacity: .8;
+}
